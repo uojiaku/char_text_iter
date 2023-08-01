@@ -1,0 +1,52 @@
+{
+  "canisters": {
+    "char_text_iter": {
+      "main": "text_to_char.mo",
+      "type": "motoko"
+    },
+    "show_char": {
+      "main": "show_char.mo",
+      "type": "motoko"
+    },
+    "text_pattern": {
+      "main": "text_pattern.mo",
+      "type": "motoko"
+    },
+    "text_blob": {
+      "main": "text_blob.mo",
+      "type": "motoko"
+    },
+    "iter_range": {
+      "main": "iter_range.mo",
+      "type": "motoko"
+    },
+    "iter_letters": {
+      "main": "iter_letters.mo",
+      "type": "motoko"
+    },
+    "array_vals": {
+      "main" : "array_vals.mo",
+      "type" : "motoko"
+    },
+    "iter_array_vals": {
+      "main" : "iter_array_vals.mo",
+      "type" : "motoko"
+    },
+    "iter_array_val2": {
+      "main" : "iter_array_val2.mo",
+      "type" : "motoko"
+    },
+    "type_text": {
+      "main" : "type_text.mo",
+      "type" : "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
